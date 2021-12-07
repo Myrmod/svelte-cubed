@@ -7,6 +7,7 @@
 	/** @type {THREE.BufferGeometry} */
 	export let geometry = defaults.geometry;
 
+	/** @type {import('three').Material | import('three').Material[]} */
 	export let material = defaults.material;
 	export let position = defaults.position;
 	export let rotation = defaults.rotation;
